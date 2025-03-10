@@ -481,7 +481,7 @@
        <execution>
           <id>jacoco-initialize</id>
           <goals>
-           <goalprepare-agent</goal>
+           <goal>prepare-agent</goal>
        </goals>
      </execution>
      <execution>

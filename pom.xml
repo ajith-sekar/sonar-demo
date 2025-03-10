@@ -476,8 +476,7 @@
              
 
     <profiles>
-        <profile>
-                 <profiles>
+        
     <profile>
         <id>coverage</id>
         <activation>

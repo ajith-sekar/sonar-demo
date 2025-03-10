@@ -477,7 +477,7 @@
 
     <profiles>
         
-    <profile>
+    
         <id>coverage</id>
         <activation>
             <activeByDefault>true</activeByDefault>

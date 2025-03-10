@@ -477,6 +477,24 @@
 
     <profiles>
         <profile>
+                 <profiles>
+    <profile>
+        <id>coverage</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${jacoco.version}</version>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
+
             <id>H2</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
